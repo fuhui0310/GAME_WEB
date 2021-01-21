@@ -84,7 +84,6 @@ export function* onSignOutStart() {
 
 export function* onSignUpStart() {
     yield takeLatest(UserActionTypes.SIGN_UP_START, signUp);
-    console.log("sign up yo")
 }
 
 export function* onSignUpSuccess() {
